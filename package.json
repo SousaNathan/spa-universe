@@ -1,0 +1,12 @@
+{
+  "name": "spa-universe",
+  "version": "1.0.0",
+  "description": "Trilha Explorer | Stage 6 - SPA Universe | Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
