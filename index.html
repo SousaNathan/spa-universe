@@ -3,17 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css">
   <title>SPA Universe</title>
 </head>
 <body>
   <header>
     <div id="logo">
-      <img src="" alt="">
-    </div>
+      
     <nav>
-      <a href="/home" onclick="route()">Home</a>
-      <a href="/universo" onclick="route()">O Universo</a>
-      <a href="/exploracao" onclick="route()">Exploração</a>
+      <img id="logo" src="/src/images/logo.svg" alt="ícone de galáxia">
+      <ul>
+        <li>
+          <a href="/" onclick="route()">Home</a>
+        </li>
+        <li>
+          <a href="/universo" onclick="route()">O Universo</a>
+        </li>
+        <li>
+          <a href="/exploracao" onclick="route()">Exploração</a>
+        </li>
+      </ul>
     </nav>
   </header>
   <main id="app">
